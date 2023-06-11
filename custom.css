@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'Roboto', 'Ubuntu', sans-serif;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.bg-dark {
+    background: #000 !important;
+}
+
+.bg-place-net {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    border-bottom: 10px solid rgb(131 131 131);
+}
+
+.bg-place-net img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.net-c-bg-black {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000ae !important;
+    top: 0;
+    left: 0;
+}
+
+/* nav bar styling */
+.net-nav-custom {
+    position: absolute;
+    top: 0;
+    left: 0rem;
+    margin: auto;
+}
+
+/* banner text styling */
+.net-custom-banner {
+    position: absolute;
+    top: 38%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.net-custom-banner h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+
+}
+
+/* tv $ download container section styling */
+.tv-custom-image {
+    position: relative;
+    z-index: 1;
+}
+
+.tv-custom-video {
+    position: absolute;
+    top: 21%;
+    width: 58%;
+    left: 11%;
+    z-index: 5;
+}
+
+.tv-heading {
+    font-size: 3rem;
+}
+
+.tv-custom-text {
+    font-size: 1.5rem;
+    word-spacing: 2%;
+}
+
+.sec-custom-end {
+    border-bottom: 10px solid rgb(131 131 131);
+
+}
+
+.download-sample-custom {
+    position: absolute;
+    width: 50%;
+    top: 70%;
+    left: 25%;
+    padding: .5rem;
+    background: #000;
+    border: 2px solid rgb(131 131 131);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:688px) {
+    .bg-place-net {
+        height: 87vh;
+    }
+
+    .net-c-bg-black {
+        height: 87vh;
+    }
+
+    .net-nav- {
+        left: 0;
+    }
+
+    .net-custom-banner {
+        position: absolute;
+        top: 17%;
+    }
+
+    .net-custom-banner h1 {
+        font-size: 2.5rem;
+    }
+
+    .net-custom-banner p {
+        font-size: 1rem !important;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    .bg-place-net,
+    .net-c-bg-black {
+        height: 50vh;
+    }
+
+    .net-custom-banner {
+        top: 16%;
+    }
+}
