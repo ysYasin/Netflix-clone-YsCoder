@@ -72,8 +72,8 @@ body {
 .tv-custom-video {
     position: absolute;
     top: 21%;
-    width: 58%;
-    left: 11%;
+    width: 74%;
+    left: 13%;
     z-index: 5;
 }
 
@@ -100,6 +100,14 @@ body {
     background: #000;
     border: 2px solid rgb(131 131 131);
     border-radius: 10px;
+}
+
+.blank_head_custom_Fs {
+    font-size: 4rem;
+}
+
+.blank_text_custom_Fs {
+    font-size: 1.3rem;
 }
 
 @media only screen and (max-width:688px) {
