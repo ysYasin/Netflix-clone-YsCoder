@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Style for the custom select box */
+        .custom-select {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Style for the select box arrow */
+        .custom-select::after {
+            content: '\25BC';
+            /* Unicode character for a down arrow */
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 10px;
+        }
+
+        /* Style for the select box */
+        select {
+            appearance: none;
+            /* Remove default arrow */
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px 30px 10px 10px;
+            /* Add padding to make room for the arrow */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="custom-select">
+        <select>
+            <option value="option1">&#xf015; Option 1</option> <!-- Use the Unicode value of the desired icon -->
+            <option value="option2">&#xf019; Option 2</option>
+            <option value="option3">&#xf0c0; Option 3</option>
+        </select>
+    </div>
+</body>
+
+</html>

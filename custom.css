@@ -110,13 +110,51 @@ body {
     font-size: 1.3rem;
 }
 
+/* cutom-cordn-class */
+.frequent-heading-custom h1 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.cutom-cordn-class {
+    background: #2d2d2d;
+    color: aliceblue;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+/* footer */
+.footer-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 1.5rem;
+    text-decoration: none;
+}
+
+.slmall-head-footer {
+    color: #acacac;
+    font-size: 1.2rem;
+    padding-left: 2rem;
+}
+
+.footer-list li a {
+    font-size: 1.2rem;
+    color: #acacac;
+    text-decoration: none;
+
+}
+
 @media only screen and (max-width:688px) {
+
+
     .bg-place-net {
-        height: 87vh;
+        height: 60vh;
     }
 
     .net-c-bg-black {
-        height: 87vh;
+        height: 60vh;
     }
 
     .net-nav- {
@@ -128,12 +166,36 @@ body {
         top: 17%;
     }
 
-    .net-custom-banner h1 {
-        font-size: 2.5rem;
+    .download-sample-custom {
+        width: 70%;
+        left: 15%;
+
+    }
+
+    .fw-custom-net {
+        font-size: 0.9rem !important;
+        font-weight: 400 !important;
     }
 
     .net-custom-banner p {
         font-size: 1rem !important;
+    }
+
+    .net-custom-banner h1 {
+        font-size: 2.5rem;
+    }
+
+    .frequent-heading-custom h1 {
+        font-size: 1.5rem;
+    }
+
+    .cutom-cordn-class {
+        padding: .3rem;
+        font-size: 1rem;
+    }
+
+    .footer-list {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -141,10 +203,16 @@ body {
 
     .bg-place-net,
     .net-c-bg-black {
-        height: 50vh;
+        height: 60vh;
     }
 
     .net-custom-banner {
         top: 16%;
     }
+
+    .footer-list {
+        /* grid-template-columns: repeat(1, 1fr); */
+    }
+
+
 }
